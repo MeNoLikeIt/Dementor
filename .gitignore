@@ -45,3 +45,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+src/Dementor/Dementor.DAL/bin/
+src/Dementor/Dementor.DAL/obj/
+src/Dementor/Dementor.UI/bin/
+src/Dementor/Dementor.UI/obj/
+src/Dementor/packages/
+*.suo
+*.user
