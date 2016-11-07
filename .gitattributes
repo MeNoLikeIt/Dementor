@@ -1,17 +1,51 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text=crlf
+*.doc  diff=astextplain
+*.DOC	diff=astextplain
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+*.dot	diff=astextplain
+*.DOT	diff=astextplain
+*.pdf	diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+*.jpg  	binary
+*.png 	binary
+*.gif 	binary
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.cs text=crlf diff=csharp
+*.vb text=crlf
+*.resx text=crlf
+*.c text=crlf
+*.cpp text=crlf
+*.cxx text=crlf
+*.h text=crlf
+*.hxx text=crlf
+*.py text=crlf
+*.rb text=crlf
+*.java text=crlf
+*.html text=crlf
+*.htm text=crlf
+*.css text=crlf
+*.scss text=crlf
+*.sass text=crlf
+*.less text=crlf
+*.js text=crlf
+*.lisp text=crlf
+*.clj text=crlf
+*.sql text=crlf
+*.php text=crlf
+*.lua text=crlf
+*.m text=crlf
+*.asm text=crlf
+*.erl text=crlf
+*.fs text=crlf
+*.fsx text=crlf
+*.hs text=crlf
+
+*.csproj text=crlf
+*.vbproj text=crlf
+*.fsproj text=crlf
+*.dbproj text=crlf
+*.sln text=crlf eol=crlf
